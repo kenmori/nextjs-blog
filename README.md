@@ -1,4 +1,0 @@
-# nextjs-blog
-
-
-## yarn dev

@@ -23,6 +23,7 @@ const Home = () => (
     </main>
 
     <footer>
+    <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
       <a
         href="https://zeit.co?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
         target="_blank"

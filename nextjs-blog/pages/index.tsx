@@ -1,38 +1,17 @@
+import { AppProps } from 'next/app'
 import Head from 'next/head'
 import Link from 'next/link'
 
-const Home = () => (
-  <div className="container">
+function App(){
+  return (
+    <div className="container">
     <Head>
       <title>Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-
     <main>
-      <h1 className="title">
-        Learn to <a href="https://nextjs.org">Next.js!</a>
-      </h1>
-
-      <p className="description">
-        Get started by editing <code>pages/index.js</code>
-      </p>
-
-      <div className="grid">
         <Link href="/posts/first-post"><a>this page</a></Link>
-      </div>
     </main>
-
-    <footer>
-    <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-      <a
-        href="https://zeit.co?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
-      </a>
-    </footer>
-
     <style jsx>{`
       .container {
         min-height: 100vh;
@@ -174,6 +153,8 @@ const Home = () => (
       }
     `}</style>
   </div>
-)
+  )
+}
 
-export default Home
+
+export default App

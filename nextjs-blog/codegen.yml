@@ -1,4 +1,4 @@
-schema: http://localhost:8080/v1/graphql/
+schema: http://localhost:9999/v1/graphql/
 documents: "**/*.graphql"
 overwrite: true
 generates:
